@@ -1,0 +1,22 @@
+{
+  "name": "mk-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startparcel": "parcel ./index.html",
+    "start": "nodemon --watch src/ -e ts --exec ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0"
+  },
+  "dependencies": {
+    "typescript": "^4.5.5",
+    "parcel-bundler": "^1.12.5"
+  }
+}
