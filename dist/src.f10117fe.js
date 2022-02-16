@@ -121,7 +121,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 "use strict";
 
 console.log("abc");
-var count = 28;
+var count = 30;
 console.log("count:", count);
 },{}],"node_modules/_parcel-bundler@1.12.5@parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
